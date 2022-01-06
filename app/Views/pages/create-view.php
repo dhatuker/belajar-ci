@@ -2,18 +2,23 @@
 
 <?= $this->section('content'); ?>
 
-<div>
+<?php if (isset($note['judul']) && isset($note['isi'])){?>
+    <form action="/note/edit/<?= $note['id']?>" method="post">
+<?php }else{ ?>
+    <form action="/note/save" method="post">
+<?php } ?>
+
     <div class="mx-5 my-5">
-        <label for="exampleFormControlInput1" class="form-label">Judul</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"><?php echo $note['judul']?></textarea>
+        <label for="judul" class="form-label">Judul</label>
+        <input type="text" class="form-control" id="judul-note" name="judul-note" value="<?php if (isset($note['judul'])){echo $note['judul'];};?>">
     </div>
     <div class="mx-5 my-5">
-        <label for="exampleFormControlTextarea1" class="form-label">Isi</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"><?php echo $note['isi']?></textarea>
+        <label for="isi" class="form-label">Isi</label>
+        <input type="text" class="form-control" id="isi-note" name="isi-note" value="<?php if (isset($note['isi'])) { echo $note['isi'];};?>">
     </div>
     <div class = "d-flex justify-content-end mx-5">
-        <a href="" class="btn btn-primary">Edit</a>
+        <button type="submit" class="btn btn-primary"><?=$btn?></button>
     </div>
-</div>
+</form>
 
 <?= $this->endSection(); ?>

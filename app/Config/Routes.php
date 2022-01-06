@@ -35,6 +35,9 @@ $routes->get('/', 'Home::index');
 $routes->get('/list', 'Home::list');
 $routes->get('/create-list', 'Home::input');
 $routes->get('/create-list/(:any)', 'Home::edit/$1');
+$routes->get('/delete-list/(:any)', 'Home::deleteNote/$1');
+$routes->post('/note/save', 'Home::saveNote');
+$routes->post('/note/edit/(:any)', 'Home::editNote/$1');
 
 /*
  * --------------------------------------------------------------------

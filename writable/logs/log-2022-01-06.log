@@ -500,3 +500,145 @@ CRITICAL - 2022-01-06 08:58:18 --> Unsupported operand types: string / int
 #7 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
 #9 {main}
+CRITICAL - 2022-01-06 16:20:50 --> Undefined variable $note
+#0 E:\Kerja\ci\app\Views\pages\create-view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 8)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('pages/create-vi...', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(40): view('pages/create-vi...', Array)
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->input()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 16:21:23 --> Undefined variable $note
+#0 E:\Kerja\ci\app\Views\pages\create-view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 8)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('pages/create-vi...', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(40): view('pages/create-vi...', Array)
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->input()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 16:25:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-06 16:25:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 16:25:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-06 16:25:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 16:25:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-06 16:25:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(26): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 16:32:39 --> Unmatched '}'
+#0 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('pages/create-vi...', Array, true)
+#2 E:\Kerja\ci\app\Controllers\Home.php(40): view('pages/create-vi...', Array)
+#3 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->input()
+#4 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#8 {main}
+CRITICAL - 2022-01-06 17:03:50 --> Undefined property: App\Controllers\Home::$dataNode
+#0 E:\Kerja\ci\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 57)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->save()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 17:04:29 --> Undefined property: App\Controllers\Home::$dataNode
+#0 E:\Kerja\ci\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 57)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->save()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 17:04:57 --> Undefined property: App\Controllers\Home::$dataNode
+#0 E:\Kerja\ci\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 57)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->save()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 17:05:48 --> Undefined property: App\Controllers\Home::$dataNode
+#0 E:\Kerja\ci\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 57)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->save()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 17:06:48 --> Undefined property: App\Controllers\Home::$dataNode
+#0 E:\Kerja\ci\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 57)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->save()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 17:08:48 --> Undefined property: App\Controllers\Home::$dataNode
+#0 E:\Kerja\ci\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 57)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->saveNote()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 17:18:20 --> Unsupported operand types: string / string
+#0 E:\Kerja\ci\system\View\View.php(210): include()
+#1 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('pages/list-view', Array, true)
+#3 E:\Kerja\ci\app\Controllers\Home.php(32): view('pages/list-view', Array)
+#4 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#5 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#9 {main}
+CRITICAL - 2022-01-06 17:31:02 --> Too few arguments to function App\Controllers\Home::editNote(), 0 passed in E:\Kerja\ci\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->editNote()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}

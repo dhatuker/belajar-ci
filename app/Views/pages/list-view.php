@@ -13,12 +13,16 @@
     <h5 class="card-title"><?=$n['judul']?></h5>
     <p class="card-text"><?=$n['isi']?></p>
     <div class="d-flex justify-content-end">
-        <a href="<?=base_url()?>" class="btn btn-danger mx-2">Delete</a>
-        <a href="<?=base_url("/create-list/$i")?>" class="btn btn-warning mx-2">Edit</a>
+        <a href="<?=base_url("/delete-list")?>/<?=$n['id']?>" class="btn btn-danger mx-2">Delete</a>
+        <a href="<?=base_url("/create-list")?>/<?=$n['id']?>" class="btn btn-warning mx-2">Edit</a>
     </div>
   </div>
 </div>
 
 <?php endforeach?>
+
+<div class = "d-flex justify-content-end mx-5">
+        <a href="<?= base_url();?>" class="btn btn-primary">Halaman Utama</a>
+    </div>
 
 <?= $this->endSection(); ?>

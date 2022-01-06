@@ -35,7 +35,8 @@ class Home extends BaseController
     public function input()
     {
         $data = [
-            'title' => 'App List | Buat Catatan'
+            'title' => 'App List | Buat Catatan',
+            'btn' => 'Simpan Catatan'
         ];
         echo view("pages/create-view", $data);
     }
@@ -45,9 +46,37 @@ class Home extends BaseController
         $note = $this->dataNote->where(['id' => $input])->first();
         $data = [
             'title' => "App List | Edit Catatan No-$input",
+            'btn' => 'Edit Catatan',
             'note' => $note
         ];
 
         echo view("pages/create-view", $data);
+    }
+
+    public function saveNote(){
+        $note = $this->dataNote->save([
+            'judul' => $this->request->getVar('judul-note'),
+            'isi' => $this->request->getVar('isi-note')
+        ]);
+
+        return redirect()->to('list');
+    }
+
+    public function deleteNote($id){
+        $note = $this->dataNote->delete([
+            'id' => $id
+        ]);
+
+        return redirect()->to('list');
+    }
+
+    public function editNote($id){
+        $note = $this->dataNote->save([
+            'id' => $id,
+            'judul' => $this->request->getVar('judul-note'),
+            'isi' => $this->request->getVar('isi-note')
+        ]);
+
+        return redirect()->to('list');
     }
 }
