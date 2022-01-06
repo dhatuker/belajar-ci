@@ -1,0 +1,502 @@
+CRITICAL - 2022-01-06 07:39:41 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(19): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 07:40:02 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(22): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 07:40:03 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(22): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 07:40:03 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(22): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 07:40:03 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(22): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 07:40:04 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(22): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 07:40:04 --> Undefined variable $title
+#0 E:\Kerja\ci\app\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 11)
+#1 E:\Kerja\ci\system\View\View.php(210): include('E:\\Kerja\\ci\\app...')
+#2 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 E:\Kerja\ci\app\Controllers\Home.php(22): view('layout/header')
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 08:13:23 --> Class "App\Controllers\HomeModel" not found
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:38 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:14:39 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:14:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:15:59 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:15:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:15:59 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:15:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:15:59 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:15:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:00 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:00 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:00 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:00 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:00 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:01 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+ERROR - 2022-01-06 08:16:01 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-01-06 08:16:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Kerja\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Kerja\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Kerja\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Kerja\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 E:\Kerja\ci\app\Controllers\Home.php(18): CodeIgniter\BaseModel->findAll()
+#5 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#10 {main}
+CRITICAL - 2022-01-06 08:16:45 --> Undefined variable $node
+#0 E:\Kerja\ci\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 19)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:19:29 --> Undefined variable $database
+#0 E:\Kerja\ci\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 19)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:19:37 --> Undefined variable $database
+#0 E:\Kerja\ci\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 19)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:19:58 --> Undefined property: App\Controllers\Home::$database
+#0 E:\Kerja\ci\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 19)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:20:20 --> Undefined property: App\Controllers\Home::$database
+#0 E:\Kerja\ci\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 19)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:21:11 --> Undefined property: App\Controllers\Home::$dataNote
+#0 E:\Kerja\ci\app\Controllers\Home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 19)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:22:11 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:22:12 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:22:13 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:22:23 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:22:58 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:23:59 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:23:59 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:24:26 --> Undefined property: App\Controllers\Home::$dataNote
+#0 E:\Kerja\ci\app\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Kerja\\ci\\app...', 21)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:25:01 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:25:58 --> Call to a member function findAll() on null
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:52:52 --> Call to undefined function App\Controllers\getNote()
+#0 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->edit('1')
+#1 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#5 {main}
+CRITICAL - 2022-01-06 08:55:57 --> Undefined variable $note
+#0 E:\Kerja\ci\app\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Kerja\\ci\\app...', 49)
+#1 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->edit('1')
+#2 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#6 {main}
+CRITICAL - 2022-01-06 08:58:18 --> Unsupported operand types: string / int
+#0 E:\Kerja\ci\system\View\View.php(210): include()
+#1 E:\Kerja\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\Kerja\ci\system\Common.php(1089): CodeIgniter\View\View->render('pages/list-view', Array, true)
+#3 E:\Kerja\ci\app\Controllers\Home.php(32): view('pages/list-view', Array)
+#4 E:\Kerja\ci\system\CodeIgniter.php(825): App\Controllers\Home->list()
+#5 E:\Kerja\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\Kerja\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Kerja\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Kerja\ci\system\Commands\Server\rewrite.php(43): require_once('E:\\Kerja\\ci\\pub...')
+#9 {main}
